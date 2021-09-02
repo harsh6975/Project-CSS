@@ -29,7 +29,10 @@ function Body() {
           })}
         </div>
       </div>
+      <h2 className={style.mostwatch}>Most Watched</h2>
       <MostWatched />
+      <MostWatched />
+      <br/><br/><br/>
     </div>
   );
 }

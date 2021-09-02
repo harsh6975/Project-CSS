@@ -6,6 +6,7 @@
   background-size: cover;
   position: relative;
   opacity: 0.9;
+  text-align: center;
 }
 .commingSoon h1{
    position: absolute;

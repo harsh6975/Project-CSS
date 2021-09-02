@@ -1,14 +1,18 @@
 .mostWatch{
-    padding-bottom: 50px;
+    margin-right: 20px;
 }
-.mostWatch h2 {
-  color: white;
-  margin-top: 20px;
-  margin-left: 18px;
+.item{
+  display: flex;
+  overflow-x: scroll;
+  justify-content: space-between;
+}
+.item::-webkit-scrollbar {
+  display: none;
 }
 .itembox {
   display: flex;
   margin:10px 18px;
+  padding-right: 80px;
 }
 .itembox img{
     border-radius: 10px;
@@ -20,9 +24,10 @@
   line-height: 22px;
   letter-spacing: 0.3px;
   margin-left: 18px;
+  width: 200%;
 }
 
-.itembox p,span {
+.itembox p{
   font-size: 12px;
   line-height: 12px;
   letter-spacing: 0.5px;
@@ -31,4 +36,22 @@
   opacity: 0.5;
   margin-left: 18px;
   margin-top: 5px;
+  width: 200%;
+}
+.bottomtext{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 12px;
+  line-height: 12px;
+  letter-spacing: 0.5px;
+  color: #ffffff;
+  mix-blend-mode: normal;
+  opacity: 0.5;
+  margin-left: 18px;
+  margin-top: 5px;
+  width: 200%;
+}
+.time{
+  margin-left: -10px;
 }
