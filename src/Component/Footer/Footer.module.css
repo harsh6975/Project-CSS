@@ -1,0 +1,28 @@
+.footer {
+  display: flex;
+  background-color: #252836;
+  justify-content: space-around;
+  align-items: center;
+  padding-top: 10px;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+}
+.fotterContainer {
+  text-align: center;
+}
+
+.footer p {
+  font-size: 10px;
+  line-height: 10px;
+  letter-spacing: 0.3px;
+  color: #808191;
+  margin-bottom: 5px;
+}
+.active{
+  text-decoration: none;
+}
+.active p{
+  color:  white;
+}

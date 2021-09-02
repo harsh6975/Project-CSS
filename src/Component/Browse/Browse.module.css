@@ -1,0 +1,78 @@
+.browse {
+  background-color: #3f3d50;
+  padding-bottom: 50px;
+}
+.top {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  color: white;
+  padding-top: 30px;
+  margin-left: 10px;
+}
+.top h1 {
+  margin-left: 20px;
+}
+.container {
+  background: #252836;
+  margin: 20px 10px;
+  display: flex;
+  flex-direction: column;
+  border-radius: 15px;
+  padding-bottom: 10px;
+}
+.container img {
+  border-radius: 15px;
+}
+.content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 10px;
+}
+.content p {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 22px;
+  letter-spacing: 0.3px;
+  color: #ffffff;
+  margin-left: 12px;
+}
+.logocontent {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding-top: 10px;
+  margin-right: 10px;
+  cursor: pointer;
+}
+.heart, .send{
+  margin-right: 10px;
+  background-color: #d8d8d8;
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  position: relative;
+}
+.activeHeart{
+    background-color:#EA5F5F;
+    margin-right: 10px;
+    width: 28px;
+    height: 28px;
+    border-radius: 50%;
+    position: relative;
+}
+.send{
+    background-color: #6C5ECF;
+}
+.heart img,.activeHeart img{
+    position: absolute;
+    top: 25%;
+    left: 25%;
+}
+.send img{
+    position: absolute;
+    top: 30%;
+    left: 28%;
+}
+

@@ -1,0 +1,47 @@
+.navbar {
+  background-color: #3F3D50;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0px 20px;
+  padding: 10px 0;
+}
+.name {
+  color: white;
+}
+.search {
+  color: #808191;
+  cursor: pointer;
+}
+/* =================================================== */
+/* horizontalSlider */
+/* =================================================== */
+
+.horizontalslider {
+  display: block;
+  width: 100%;
+  overflow-x: scroll;
+}
+.horizontalslider::-webkit-scrollbar {
+  display: none;
+}
+.slidercontaner {
+  display: block;
+  white-space: nowrap;
+  margin-left: 18px;
+}
+.item {
+  display: inline-block;
+  margin-right: 20px;
+}
+.item img {
+  border-radius: 50%;
+  cursor: pointer;
+}
+.item h4 {
+  color: #808191;
+  font-weight: 400;
+  text-align: center;
+}
